@@ -1,6 +1,3 @@
-from lib2to3.pgen2.pgen import DFAState
-import matplotlib
-import pandas as pd
 import yfinance as yf
 import numpy as np
 import matplotlib.pyplot as plt
