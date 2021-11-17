@@ -21,7 +21,7 @@ view.camera = 'fly'
 #############################################
 #This model has no temporal communication, each prediction is independent of every other prediction.
 #1) USE QTHREAD
-#2) Note that if the input time dimension is not regularly distributed, the bin graph will draw out of place under the assumption of a regular distribution for optimisation purposes
+#2) Note that if the input time dimension is not regularly distributed, the bin graph will draw out of place under the assumption of a regular distribution for optimisation purposes. The underlying algorithm can still happily work with irregular sampling times.
 #############################################
 Plot3D = scene.visuals.create_visual_node(vispy.visuals.line_plot.LinePlotVisual)
 scatter = visuals.Markers()
